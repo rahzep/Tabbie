@@ -30,4 +30,4 @@ Use the `rel` attribute in the `<a>` tag to setup the relationship. Just like `t
 To use the default eventListener `mouseover`, then you can do something with the `href` or some javascript to capture `click` event.
 
 
-See the Demo here:[Tabbie Demo](http://foobar.me/Tabbie/tabbie-demo.html)
+See demo here:[Tabbie Demo](http://foobar.me/Tabbie/tabbie-demo.html)
