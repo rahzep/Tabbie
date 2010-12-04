@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<title>Tabbie-By Joey Darko</title>
+		<style type="text/css" media="screen">
+			body { font: 12px Arial, sans-serif; }
+			.fl	{float:left;}
+			.fr	{float:right;}
+			#tabs { padding: 0; }
+			#tabs li { display: inline; }
+			#tabs li a { background: #ccc; padding: 10px; float:left; border-right: 1px solid #ccc; border-bottom: none; text-decoration: none; color: #000; font-weight: bold;}
+			#tabs li.active a { background: #eee; }
+			.content { float: left; clear: both; border: 1px solid #ccc; border-top: none; border-left: none; background: #eee; padding: 10px 20px 20px; width: 400px; }
+		</style>		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script src="jquery.tabbie.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// <![CDATA[
+				jQuery(document).ready(function($) {
+					$('#tabs').tabbie();
+				});
+			// ]]>
+		</script>
+	</head>
+	<body>
+		<h1>Tabbie Demo - <a href="http://foobar.me">By Joey Darko</a></h1>
+		<ul id="tabs">
+			<li class="active"><a rel="tab1" href="#">tab1</a></li>
+			<li><a rel="tab2" href="http://joeydarko.heroku.com">joeydarko.heroku.com</a></li>
+			<li><a rel="tab3" href="http://foobar.me">foobar.me</a></li>
+		</ul>
+		
+		<div id="tab1" class="content">
+			<h2>tab1</h2>
+			tab1
+		</div>
+		
+		<div id="tab2" class="content">
+			<h2>tab2</h2>
+			<a href="http://joeydarko.heroku.com">joeydarko.heroku.com</a>
+		</div>
+
+		<div id="tab3" class="content">
+			<h2>tab3</h2>
+			<a href="http://foobar.me">foobar.me</a>
+		</div>
+
+
+	</body>
+</html>
