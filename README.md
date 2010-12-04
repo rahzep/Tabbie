@@ -10,7 +10,7 @@ or
 
     $('#tabs').tabbie({event:'click'});
 
-to change the event capture point to 'click',the default is 'mouseover'.
+to change the event listener to `click`,the default is `mouseover`.
 
 HTML part is just like this:
 
@@ -29,6 +29,5 @@ Use the `rel` attribute in the `<a>` tag to setup the relationship. Just like `t
 
 To use the default eventListener `mouseover`, then you can do something with the `href` or some javascript to capture `click` event.
 
-Very simple.
 
 See the Demo here:[Tabbie Demo](http://foobar.me/Tabbie/tabbie-demo.html)
