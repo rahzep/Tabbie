@@ -15,7 +15,7 @@ to change the event capture point to 'click',the default is 'mouseover'.
 HTML part is just like this:
 
     <ul id="tabs">
-    	<li class="active"><a rel="tab1" href="/foobar">foobar</a></li>
+    	<li class="active"><a rel="tab1" href="http://foobar.me">foobar.me</a></li>
     </ul>
     
     <div id="tab1" class="content">
@@ -31,4 +31,4 @@ To use the default event capture point 'mouseover', then you can do something wi
 
 Very simple.
 
-See the Demo here:http://foobar.me/Tabbie/tabbie-demo.html
+See the Demo here:[Tabbie Demo](http://foobar.me/Tabbie/tabbie-demo.html)
