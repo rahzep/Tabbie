@@ -27,7 +27,7 @@ Use the `rel` attribute in the `<a>` tag to setup the relationship. Just like `t
 
 `class="active"` in `<li>` is used to identify which tab to displays.
 
-To use the default event capture point 'mouseover', then you can do something with the `href` or some javascript to capture `click` event.
+To use the default eventListener `mouseover`, then you can do something with the `href` or some javascript to capture `click` event.
 
 Very simple.
 
